@@ -1,0 +1,43 @@
+/* styles/Home.module.css */
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Ensure relative positioning for absolute elements */
+}
+
+.main {
+  text-align: left; /* Align text elements to the left */
+  width: 100%;
+  max-width: 490px; /* Optionally set a max width for better centering */
+}
+
+@media (max-width: 480px) {
+  .main {
+    max-width: 335px;
+  }
+}
+
+.input {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.pageTitle {
+  margin-bottom: 0.5rem;
+}
+
+.logoImg {
+  margin-bottom: 0.5rem;
+}
+
+.text {
+  opacity: 75%;
+}
+
+.appImg {
+  width: 225px;
+  height: auto;
+}
